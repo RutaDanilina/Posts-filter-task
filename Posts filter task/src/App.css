@@ -1,0 +1,154 @@
+.App {
+  margin: 50px auto;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+input, select {
+  font-size: 12px;
+  text-align: center;
+}
+
+.searchForm, .PostForm, .cardsWrapper{
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+}
+.searchForm {
+  position: fixed;
+  max-width: 750px;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.searchForm input, .searchForm select {
+  padding: 5px;
+  margin-right: 3px;
+}
+
+.searchForm input {
+  width: 70.5%;
+  padding: 5px;
+  margin-right: 3px;
+}
+
+.searchForm select, .searchForm button {
+  width: 20%;
+  padding: 5px;
+  margin-right: 3px;
+}
+
+.searchForm button {
+  padding: 4.1px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  background-color: #60465b;
+  color: white;
+  border: 1px solid #2f242d;
+}
+
+.searchForm button:hover {
+  letter-spacing: 1.3px;
+  background-color: #2f242d;
+  color: white;
+  border: 1px solid #17181c;
+  transition: ease-in .5s;
+}
+
+.PostForm{
+  padding: 0;
+  margin: 30px 30px 30px 10px;
+}
+
+.PostForm input{
+  padding: 5px;
+  margin: 3px;
+  width: 46%;
+}
+ .PostForm .btn {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px;
+  margin-top: 15px;
+  width: 93%;
+  background-color: #60465b;
+  color: white;
+  border: 1px solid #2f242d;
+ }
+
+ .PostForm .btn:hover {
+  letter-spacing: 1.3px;
+  background-color: #2f242d;
+  color: white;
+  border: 1px solid #17181c;
+  transition: ease-in .5s;
+ }
+
+ .cardsWrapper{
+  padding-left: 1%;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ .singleCard {
+  width: 200px;
+  padding: 25px;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid  #17181c;
+  background-color: white;
+  line-height: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+
+ .singleCard img {
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+  border: 2px solid #a5c5b6;
+ }
+ .singleCard img:hover {
+  scale: 1.1;
+  transition: ease-in .5s;
+ }
+
+ .singleCard h3 {
+  margin: 5px auto 5px auto;
+  height: 55px;
+  text-transform: capitalize;
+ }
+
+ .singleCard h4 {
+  margin: 10px auto 10px auto;
+  height: 20px;
+  font-weight: 900;
+  letter-spacing: .8px;
+ }
+
+ .singleCard p {
+ font-size: 12px;
+ letter-spacing: .5px;
+ }
+
+ .btnWrapper{
+  display: flex;
+  justify-content: flex-end;
+ }
+
+ .singleCard button{
+margin: 10px 0 0 0;
+padding: 0;
+background-color: transparent;
+border: none;
+}
+
+.singleCard input{
+  margin-top: 10px;
+  padding: 3px;
+  }
